@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Tab Title set to 'Artorius' -->
+    <title>SWOT</title>
+    
+    <!-- Favicon/Tab Icon set to your file path -->
+    <link rel="icon" type="image/png" href="image (13).png"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* This CSS makes the iframe take up the whole screen without borders */
+        html, body, iframe {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            width: 100%;
+            border: none;
+            overflow: hidden; /* Hide main scrollbars if not needed */
+        }
+    </style>
+</head>
+<body>
+    <!-- Streamlit app embedded as an iframe -->
+    <iframe src='https://stratify-ai-10fd485e.base44.app//?embed=true' allow="fullscreen"></iframe>
+</body>
+</html>
